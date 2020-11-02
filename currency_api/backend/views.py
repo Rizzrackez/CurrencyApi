@@ -1,6 +1,6 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
-from backend.currency_services import get_all_currencies, get_difference_between_currencies
+from backend.currency_functions import get_all_currencies, get_difference_between_currencies
 
 
 class CurrenciesList(APIView):
